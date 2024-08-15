@@ -35,10 +35,10 @@ export const Body = () => {
         </p>
       </div>
       <div id="images" className="pt-[80px]">
-        <p className="flex justify-center gap-2 m-auto ">
+        <p className="flex flex-wrap justify-center max-w-[1094px] m-auto ">
           {images.map((image, index) => {
             return (
-              <div className="montserrat">
+              <div className="montserrat w-full md:w-1/2 lg:w-1/4 px-2">
                 <img src={image.img} className="h-[500px]" />
                 <p className="bg-[#363636] text-white p-[33px] font-bold tracking-wider text-[13px]">
                   {image.name}

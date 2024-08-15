@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@layer utilities {
+  .italic-plc::placeholder {
+    font-size: smaller;
+    font-weight: 700;
+  }
+}

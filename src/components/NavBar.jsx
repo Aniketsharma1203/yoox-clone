@@ -19,7 +19,7 @@ export const NavBar = () => {
           </div>
         </div>
 
-        <p>FREE SHIPPING ON ORDERS OVER US$ 190</p>
+        <p>FREE SHIPPING ON ORDERS OVER US $190</p>
 
         <div className="flex items-center underline gap-3">
           <div className="flex items-center gap-1">
