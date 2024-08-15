@@ -4,10 +4,10 @@ import { HiOutlineMail } from "react-icons/hi";
 export const Consent = () => {
   return (
     <>
-      <div className="flex flex-col justify-center items-center bg-white w-[310px] pt-8 p-8 ">
+      <div className="flex flex-col justify-center items-center bg-white lg:w-[310px] md:w-[250px] pt-8 lg:p-8 md:p-6">
         <HiOutlineMail size={"25px"} />
         <p className="montserrat font-bold text-[#333] pb-2">YOOX NEWS</p>
-        <p className="text-[13px] montserrat font-[500] p-2 pd-4">
+        <p className="lg:text-[13px] montserrat font-[500] p-2 pd-4">
           <span>Sign up for the newsletter</span> <br />
           <span>and discover the latest arrivals and</span> <br />
           promotions
@@ -38,7 +38,7 @@ export const Consent = () => {
             .
           </p>
         </div>
-        <button className="text-white bg-[#333] p-3 mt-3 w-64 text-[13px] font-bold">
+        <button className="text-white bg-[#333] p-3 mt-3 lg:w-64 md:w-32 text-[13px] font-bold">
           SIGN UP
         </button>
       </div>

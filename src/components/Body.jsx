@@ -39,11 +39,11 @@ export const Body = () => {
           {images.map((image, index) => {
             return (
               <div className="montserrat w-full md:w-1/2 lg:w-1/4 px-2">
-                <img src={image.img} className="h-[500px]" />
+                <img src={image.img} className="" />
                 <p className="bg-[#363636] text-white p-[33px] font-bold tracking-wider text-[13px]">
                   {image.name}
                 </p>
-                <p className="pt-4 p-[30px] font-bold  text-[11px] text-[#753333">
+                <p className="pt-4 md:p-[30px] p-[15px] font-bold  text-[11px] text-[#753333">
                   {image.view}
                 </p>
               </div>

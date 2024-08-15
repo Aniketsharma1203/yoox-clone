@@ -6,7 +6,7 @@ import { FaUnlock } from "react-icons/fa6";
 export const NavBar = () => {
   return (
     <div className="sticky top-0 pt-[2px] bg-white">
-      <div className="flex justify-around text-[11px] font-bold mt-2 montserrat tracking-wide pr-9 pl-9 ">
+      <div className="flex justify-around md:text-[11px] text-[6px] font-bold mt-2 montserrat tracking-wide md:pr-9 pr-3 md:pl-9 pl-3 ">
         <div className="flex items-center justify-center gap-1">
           <div className="flex items-center">
             <p className="underline">INDIA</p>

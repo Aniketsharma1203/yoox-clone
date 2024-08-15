@@ -10,18 +10,20 @@ export const Footer2 = () => {
   return (
     <>
       <div className="flex font-montserrat justify-around p-3 items-center text-center">
-        <div className="flex gap-5 items-center">
-          <p className="font-semibold text-[11px] ">CONNECT WITH US</p>
-          <FaFacebookF className="h-[19px]" />
-          <BsTwitterX className="h-[19px]" />
-          <LuInstagram className="h-[19px]" />
-          <IoLogoYoutube className="h-[19px]" />
-          <TiSocialPinterest className="h-[19px]" />
-          <FaTiktok className="h-[19px]" />
+        <div className="flex md:gap-5 gap-3 items-center">
+          <p className="font-semibold md:text-[11px] text-[6px]">
+            CONNECT WITH US
+          </p>
+          <FaFacebookF className="md:h-[19px] h-[10px]" />
+          <BsTwitterX className="md:h-[19px]" />
+          <LuInstagram className="md:h-[19px]" />
+          <IoLogoYoutube className="md:h-[19px]" />
+          <TiSocialPinterest className="md:h-[19px]" />
+          <FaTiktok className="md:h-[19px]" />
         </div>
         <div className="flex gap-3 text-center items-center">
           <FcSmartphoneTablet className="size-10" />
-          <p className="font-semibold text-[10px]">
+          <p className="font-semibold md:text-[11px] text-[6px]">
             DOWNLOAD THE APP FOR iOS / ANDROID
           </p>
         </div>
